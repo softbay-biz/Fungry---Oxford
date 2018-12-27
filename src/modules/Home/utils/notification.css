@@ -1,0 +1,25 @@
+#toast
+ {
+   position:absolute;
+   left:15px;
+   bottom:15px;
+   background:rgba(42,43,44,1);
+   color:#fff;
+   padding:15px;
+   border-radius:3px;
+   transform:scale3d(0,0,0);
+   font-size:0.8rem;
+   z-index:9999999999;
+   transition:transform ease 0.3s !important;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   /*overflow:hidden;*/
+ }
+#toastImg
+ {
+   margin-right:3px;
+   vertical-align:top !important;
+   display:inline-block;
+   width:16px;
+   height:16px;
+ }

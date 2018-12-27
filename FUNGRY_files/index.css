@@ -1,0 +1,236 @@
+@import url("fontFace.css");
+@import url("helpers.css");
+:root{
+      --primary-theme-color:#ff6e57;
+      --secondary-theme-color:#131313;
+}
+body{
+  -webkit-touch-callout: none ;
+  -webkit-text-size-adjust: none ;
+  -webkit-user-select: none ;
+   user-select: none ;
+  -webkit-highlight: none ;
+  -webkit-tap-highlight-color: rgba(0,0,0,0) ;
+  -webkit-tap-highlight-color: transparent ;      /* For some Androids */
+   font-family:'Montserrat', sans-serif;
+   padding:0;
+   margin:0;
+   font-feature-settings:"kern";
+   scroll-behavior:smooth;
+   width:100%;
+   height:100%;
+   font-family:ProximaNova-Regular;
+}
+#first-section-above-header{
+    height:500px;
+    background:url(../img/bg-header.jpg);
+    background-position:center;
+    background-size:cover;
+}
+#mask-first-section-above-header{
+    height:500px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.7);
+    padding:50px;
+    box-sizing:border-box;
+}
+.logo{
+    margin-top:-10px; /* Ce margin-top:-15px(nombre magique) est utilisé parceque l'image a un fond lorsque l'image sera corrigée plus besoin de ca */
+}
+.registration-area{
+    float:right;
+}
+.button{
+    display:inline-block;
+    padding:15px;
+    background:var(--primary-theme-color);
+    text-align:center;
+    box-sizing:border-box;
+    color: #ffffff;
+    font-size:0.9rem;
+    margin-left:10px;
+    cursor:pointer;
+    transition: color ease .2s, background ease .2s;
+    border:1px solid #e0e0e0;
+    border-radius:2px;
+}
+.button:hover,.button-search:hover{
+    color:var(--secondary-theme-color);
+    background:#ffffff;
+}
+#sign-in{
+    background:#ffffff;
+    color:var(--secondary-theme-color);
+    transition: color ease .2s, background ease .2s;
+}
+#sign-in:hover{
+    color: #ffffff;  
+    background:var(--primary-theme-color);
+}
+.panier{
+   margin-left:15px !important;
+   display:inline-block;
+   float:right;
+   cursor:pointer;
+}
+#mask-first-section-above-header p{
+   max-width:400px;
+   font-size:1.9rem;
+   color:#ffffff;
+   margin-top:100px;
+}
+.wrapper-geolocation-mark{
+   background:#ffffff;
+   text-align:center;
+   display:inline-block;
+   padding:7px;
+   height:40px;
+   width:30px;
+   box-sizing:border-box;
+   float:left;
+   border:1px solid #e0e0e0;
+   border-right:none;
+}
+.input{
+   box-sizing:border-box;
+   outline:none;
+   border:none;
+   height:40px;
+   padding:15px;
+   width:250px;
+   display:inline-block;
+   float:left;
+   border:1px solid #e0e0e0;
+   border-left:none;
+}
+.button-search{
+   height:40px;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:50px;
+    padding-top:15px;
+    padding-bottom:15px;
+    box-sizing:border-box;
+    background:#ffffff;
+    height:80px;
+    transform:translate3d(0,-80px,0);
+    transition:transform ease 0.2s;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+header > img{
+    float:left;
+    margin-right:25px;
+}
+#why-choose-us{
+   background:#f5f5f5; 
+}
+.flexbox-display{
+    display:flex;
+    flex-direction:row;/* direction par defaut mais ca ne me coute rien de le specifier */
+    width:100% !important;
+    padding:50px;
+    box-sizing:border-box;
+    text-align:left !important;
+}
+.flexbox-display div{
+    text-align:center;
+    width:calc((100vw / 3));
+    box-sizing:border-box;
+    margin-left:20px;
+}
+.flexbox-display div:first-child{
+  margin-left:0;
+}
+.flexbox-display p{
+    font-weight:bold;
+    font-size:1.2rem;
+    color:var(--secondary-theme-color);
+}
+.flexbox-display span{
+    color:gray;
+    font-size:0.9rem;
+}
+h2{
+    margin-top:50px;
+    margin-left:50px;
+}
+#most-voted-restaurants div{
+    text-align:left;
+}
+#most-voted-restaurants .img-bg{
+    width:100%;
+    height:250px;
+    border-radius:3px;
+    background-size:cover;
+    background-position:center;
+    display:block;
+}
+.first-bg{
+    background:url(../img/pic1.jpg);
+}
+.second-bg{
+    background:url(../img/pic2.jpg);
+}
+.third-bg{
+    background:url(../img/pic3.jpg);
+}
+#most-voted-restaurants p, #fungry-miscealleanous p{
+    font-size:0.9rem;
+}
+#most-voted-restaurants span:last-child, #fungry-miscealleanous a{
+    font-size:0.9rem;
+    color:var(--primary-theme-color);
+}
+#fungry-miscealleanous{
+    background:#f5f5f5;
+}
+#fungry-miscealleanous div{
+   width:calc(100vw / 2);
+   text-align:center;
+}
+#fungry-miscealleanous p{
+    /*width:300px;*/
+    font-weight:normal;
+}
+#fungry-miscealleanous a{
+    text-decoration:none;
+}
+#useful-links{
+    background:var(--secondary-theme-color);
+}
+#useful-links img{
+    margin-top:25px;
+    margin-left:50px;
+    margin-bottom:-50px;
+    display:inline-block;
+}
+#useful-links section ul{
+    width:calc(100vw / 3);
+    list-style:none;
+    padding:0;
+}
+#useful-links section ul li{
+    margin-top:15px;
+}
+#useful-links section ul li a{
+    color:#ffffff;
+    font-size:0.85rem;
+    font-weight:bold;
+    text-decoration:none;
+}
+#useful-links section ul li a:hover{
+    color:var(--primary-theme-color);
+}
+footer{
+    padding:10px;
+    background:#424242;
+    text-align:center;
+    color:#ffffff;
+}
