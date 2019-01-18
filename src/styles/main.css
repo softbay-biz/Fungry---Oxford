@@ -399,7 +399,6 @@ input {
 
 footer {
     padding: 80px 0px;
-    padding-bottom:80px !important;
     background-color: #000;
     color:#fff;
     font-weight: 300;
@@ -1013,10 +1012,10 @@ background-color: #ff6e57;
     padding-left:60%;
   }
   .footer-seconde{
-    padding-left: 10% !important;
+    padding-left: 10% ;
   }
   .footer-seconde li{
-    padding-left:20% !important;
+    padding-left:20% ;
 } 
 
   .footer-first {

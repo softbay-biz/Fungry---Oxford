@@ -109,8 +109,27 @@
     
     padding-left: 0%;
 }
-    
  
+.footer{
+    padding: 3rem 1.5rem 1.5rem;
+}   
+ .footer-third , .footer-seconde
+ {
+     padding-left:0;
+ }
+ .footer ul li
+ {
+     text-align: center;
+ }
+ .footer-first 
+ {
+     left:0px;
+     
+ }
+ .footer-first li
+ {
+     left:0px;
+ }
 
 }
 
