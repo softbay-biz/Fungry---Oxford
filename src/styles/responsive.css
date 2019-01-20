@@ -102,6 +102,9 @@
     .is-left {
         left: -0.2rem;
     }
+    .is-grouped {
+        justify-content: center !important;
+    }
 }
 
 
@@ -132,6 +135,9 @@
     /* ==========================================================================
         Header
        ========================================================================== */
+    .btn-mv-left {
+        left: 0;
+    }
     .text-intro>p,
     .navbar-brand {
         text-align: center;
