@@ -520,21 +520,9 @@ let rightmenu =(
          
           
     <div className="navbar-menu" id="navMenu">
-    
-    
-   
-    
-
-
-
      {leftmenu}
-
      {rightmenu}
-
-
-
-    
-   </div>
+    </div>
   </div>
 </nav>
 </div>
