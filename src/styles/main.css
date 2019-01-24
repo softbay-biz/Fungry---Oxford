@@ -913,6 +913,8 @@ footer {
 .logo-regis-del {
     margin: 50px 0px !important;
     margin-top: 5px !important;
+    position: relative;
+    left: -13px;
 }
 
 .a-color {
