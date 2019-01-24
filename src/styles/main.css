@@ -53,8 +53,13 @@ h3 {
 }
 
 section {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.restaurant-profile-section {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
 }
 
 input[type="number"] {
@@ -908,6 +913,8 @@ footer {
 .logo-regis-del {
     margin: 50px 0px !important;
     margin-top: 5px !important;
+    position: relative;
+    left: -13px;
 }
 
 .a-color {
@@ -1052,7 +1059,6 @@ footer {
 }
 
 .load-more {
-    width: 10% !important;
     margin: 50px 0px !important;
     text-align: left;
     margin-bottom: 50px !important;

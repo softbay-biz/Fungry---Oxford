@@ -267,7 +267,7 @@ var listenForOverlap = require('element-overlap').listenForOverlap;
               
               {Restauarntsmenus }
           
-          <section>
+          <section className="restaurant-profile-section">
              
           <div className="section-restaurant-food-types " >
              <div className="container">

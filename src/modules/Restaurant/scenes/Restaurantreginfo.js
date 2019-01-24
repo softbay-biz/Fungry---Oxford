@@ -339,7 +339,7 @@ import * as actions from  '../actions';
         
         <div className="columns">
          <div className="column "></div>
-         <div className="column">
+         <div className="column is-four-fifths">
 
          <Link to="/" >
               <img className="logo-regis-del" src={require('../../../assets/img/fungry-logo.png')} alt="" width="200px" height="200px"
@@ -380,7 +380,7 @@ import * as actions from  '../actions';
         
           <div className="columns">
            <div className="column "></div>
-           <div className="column">
+           <div className="column is-four-fifths">
            <Link to="/" >
                 <img className="logo-regis-del " src={require('../../../assets/img/fungry-logo.png')} alt="" width="200px" height="200px"
                  />
@@ -538,7 +538,7 @@ import * as actions from  '../actions';
          
            <div className="columns">
             <div className="column "></div>
-            <div className="column">
+            <div className="column is-four-fifths">
             <Link to="/" >
                 <img className="logo-regis-del" src={require('../../../assets/img/fungry-logo.png')} alt="" width="200px" height="200px"
                  />

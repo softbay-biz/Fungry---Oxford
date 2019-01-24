@@ -71,7 +71,7 @@
                 .input-home-down {
                     width: 100% !important;
                     margin: auto;
-                    left: 0px;
+                    left: -6px;
                 }
                 .is-grouped {
                     justify-content: center !important;
@@ -164,6 +164,7 @@
                 }
                 .is-full-mobile {
                     padding-top: 0px;
+                    padding-right: 0px;
                 }
                 /* ==========================================================================
         Header
@@ -180,6 +181,12 @@
                 .restaurant-info {
                     width: 100%;
                     left: 0;
+                }
+                .sticky2 {
+                    position: relative;
+                    margin: auto;
+                    width: 100%;
+                    top: 0;
                 }
                 /* ==========================================================================
         Main
